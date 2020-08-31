@@ -12,7 +12,7 @@ Of course, the $MAIZ token combines the rules of Ampleforth’s economic policy 
 
 **exact tiem of Day 0 is: 2020/09/04 12:00:00 (UTC+0)**
 
-> After 2020/09/06 12:00:00 (UTC+0), anyone who holds more $MAIZ than the current owner can claim the ownership immediately.
+> After 2020/09/06 00:00:00 (UTC+0), anyone who holds more $MAIZ than the current owner can claim the ownership immediately.
 
 > Before that time, the owner is set to 0x0.
 
@@ -25,7 +25,7 @@ Of course, the $MAIZ token combines the rules of Ampleforth’s economic policy 
 Who will lead defi to the final success? It is us the PEOPLE who hold tokens! Trust $MAIZ, trust THE holder!
 
 
-![](https://th.bing.com/th/id/OIP.NbTFHjBbIgHnsmGninftWQHaFr?w=229&h=180&c=7&o=5&pid=1.7)
+![](https://th.bing.com/th/id/OIP.NbTFHjBbIgHnsmGninftWQHaFr?w=229&h=180&c=7&o=5&pid=1.7) 
 **~~The big holder will lead everyone~~**
 
 
@@ -34,6 +34,7 @@ Who will lead defi to the final success? It is us the PEOPLE who hold tokens! Tr
 function claimGov()
         external
     {
+        require(block.timestamp > 1599350400); //2020/09/06 00:00:00 (UTC+0)
         require(_yamBalances[msg.sender] > _yamBalances[gov], "!notEnough");
         address oldGov = gov;
         gov = msg.sender;

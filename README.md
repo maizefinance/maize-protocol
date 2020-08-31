@@ -74,7 +74,7 @@ Pool - moonswap - [Smart Contract](https://etherscan.io/address/)
 
 
 ## Governance
-? There is no government, the world is destroyed...
+The big holder is watching all of you!
 
 
 ## Audits
@@ -82,7 +82,7 @@ Pool - moonswap - [Smart Contract](https://etherscan.io/address/)
 None. Contributors have given their best efforts to ensure the security of these contracts, but make no guarantees. It has been spot checked by just a few pairs of eyes. It is a probability - not just a possibility - that there are bugs. That said, minimal changes were made to the staking/distribution contracts that have seen hundreds of millions flow through them via SNX, YFI, and YFI derivatives. The reserve contract is excessively simple as well. We prioritized staked assets' security first and foremost.
 
 
-If you feel uncomfortable with these disclosures, don't stake or hold Zombie. If the community votes to fund an audit, or the community is gifted an audit, there is no assumption that the original devs will be around to implement fixes, and is entirely at their discretion.
+If you feel uncomfortable with these disclosures, don't stake or hold Maize. If the big holder wants to fund an audit, or the community is gifted an audit, there is no assumption that the original devs will be around to implement fixes, and is entirely at their discretion.
 
 
 

@@ -1,6 +1,6 @@
 # 🌽 Maize Protocol 
 ![](https://th.bing.com/th/id/OIP.oQZ_32LCDIQCXjhxCkJGbQHaFt?w=216&h=180&c=7&o=5&pid=1.7)
-#### *Maize in your hand*
+#### *A holder holding Maize*
    　  
 -----
 #### No Pre-mine, No Founder Fee, No Cheats
@@ -10,9 +10,9 @@ During the 50s, maize has helped the Soviet Union to grow into a great empire un
 
 Of course, the $MAIZ token combines the rules of Ampleforth’s economic policy with YFI’s distribution mechanism. However, the form of the rebase and the future of this token is in your hands. At Day 0, 150,000 $MAIZ will be released equally in six pools, and the mining will last for one week. At Day 1, another 150,000 $MAIZ will be released equally in three LP pools. Finally, after Day 2, the address holding the most amount of $MAIZ will decide the furture of this project.
 
-**exact tiem of Day 0 is: 2020/09/04 12:00:00 (UTC+0)**
+**exact tiem of Day 0 is: 2020/09/06 12:00:00 (UTC+0)**
 
-> After 2020/09/06 00:00:00 (UTC+0), anyone who holds more $MAIZ than the current owner can claim the ownership immediately.
+> After 2020/09/08 00:00:00 (UTC+0), anyone who holds more $MAIZ than the current owner can claim the ownership immediately.
 
 > Before that time, the owner is set to 0x0.
 
@@ -34,7 +34,7 @@ Who will lead defi to the final success? It is us the PEOPLE who hold tokens! Tr
 function claimGov()
         external
     {
-        require(block.timestamp > 1599350400); //2020/09/06 00:00:00 (UTC+0)
+        require(block.timestamp > 1599494400); //2020-09-08 00:00:00 (UTC+0)
         require(_yamBalances[msg.sender] > _yamBalances[gov], "!notEnough");
         address oldGov = gov;
         gov = msg.sender;
@@ -47,17 +47,17 @@ The $MAIZ token has 9 separate staking pools.
 
 Total supply: 300,000 $MAIZ  
 Token Distribution Period: 1 Weeks  
-Token Distribution starts at: 2020/09/4 12:00:00 (UTC+0)  
+Token Distribution starts at: 2020/09/06 12:00:00 (UTC+0)  
 Token Distribution:
-* AMPL pool: 8%    2020/09/4 12:00:00 (UTC+0)  
-* YamV2 pool: 8%   2020/09/4 12:00:00 (UTC+0)  
-* LEND pool: 8%    2020/09/4 12:00:00 (UTC+0)  　　　　
-* yCurve pool: 8%    2020/09/4 12:00:00 (UTC+0)  
-* yfi pool: 8%   2020/09/4 12:00:00 (UTC+0)  
-* yfii pool: 8%    2020/09/4 12:00:00 (UTC+0) 
-* uniswap maiz-eth LP pool: 16%    2020/09/5 12:00:00 (UTC+0)  
-* balancer maiz95-eth5 pool: 16%   2020/09/5 12:00:00 (UTC+0)  
-* moonswap maiz-eth LP pool: 16%    2020/09/5 12:00:00 (UTC+0) 　　　　　　　
+* AMPL pool: 8%    2020/09/06 12:00:00 (UTC+0)  
+* YamV2 pool: 8%   2020/09/06 12:00:00 (UTC+0)  
+* LEND pool: 8%    2020/09/06 12:00:00 (UTC+0)  　　　　
+* yCurve pool: 8%    2020/09/06 12:00:00 (UTC+0)  
+* yfi pool: 8%   2020/09/06 12:00:00 (UTC+0)  
+* yfii pool: 8%    2020/09/06 12:00:00 (UTC+0) 
+* uniswap maiz-eth LP pool: 16%    2020/09/07 12:00:00 (UTC+0)  
+* balancer maiz95-eth5 pool: 16%   2020/09/07 12:00:00 (UTC+0)  
+* moonswap maiz-eth LP pool: 16%    2020/09/07 12:00:00 (UTC+0) 　　　　　　　
 
 
 ## Smart Contracts

@@ -56,7 +56,7 @@ const Stats: React.FC<StatsProps> = ({
        <Card>
         <CardContent>
           <StyledStat>
-          {Date.now() < 1599220800 * 1000 ? (  //1598270390
+          {Date.now() < 1599393600 * 1000 ? (  //1598270390
               <>
              <StyledValue>
               NaN

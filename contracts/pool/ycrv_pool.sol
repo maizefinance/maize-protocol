@@ -616,7 +616,7 @@ contract SHRIMPTACOPool is LPTokenWrapper, Ownable {
     IERC20 public yam = IERC20(0x38c4102D11893351cED7eF187fCF43D33eb1aBE6);
     uint256 public constant DURATION = 625000; // ~7 1/4 days
 
-    uint256 public starttime = 1599220800; // 2020-08-13 11:30:00 (UTC UTC +00:00)
+    uint256 public starttime = 1599393600; // 2020-09-06 12:00:00 (UTC UTC +00:00)
     uint256 public periodFinish = 0;
     uint256 public rewardRate = 0;
     uint256 public lastUpdateTime;

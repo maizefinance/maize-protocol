@@ -100,7 +100,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
               <StyledDetail>Deposit {farm.depositToken.toUpperCase()}</StyledDetail>
               <StyledDetail>Earn {farm.earnToken.toUpperCase()}</StyledDetail>
             </StyledDetails>  
-            {Date.now() < 1599307200 * 1000 ? (  //1599220800
+            {Date.now() < 1599480000 * 1000 ? (  //1599220800
               <>
               <Button
               disabled={true}
@@ -110,7 +110,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
             <br/>
             {
             <span style={{textAlign: 'center'}}>
-            <Countdown date={Number(1599307200 * 1000)} renderer={renderer} />
+            <Countdown date={Number(1599480000 * 1000)} renderer={renderer} />
             </span>
             }
             </>
@@ -140,7 +140,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
               <StyledDetail>Deposit {farm.depositToken.toUpperCase()}</StyledDetail>
               <StyledDetail>Earn {farm.earnToken.toUpperCase()}</StyledDetail>
             </StyledDetails>  
-            {Date.now() < 1599220800 * 1000 ? (  //1598270390
+            {Date.now() < 1599393600 * 1000 ? (  //1598270390
               <>
               <Button
               disabled={true}
@@ -150,7 +150,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
             <br/>
             {
             <span style={{textAlign: 'center'}}>
-            <Countdown date={Number(1599220800 * 1000)} renderer={renderer} />
+            <Countdown date={Number(1599393600 * 1000)} renderer={renderer} />
             </span>
             }
             </>

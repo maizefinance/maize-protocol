@@ -93,7 +93,7 @@ const Stats: React.FC<StatsProps> = ({
        <Card>
         <CardContent>
           <StyledStat>
-          {Date.now() < 1599184800 * 1000 ? (  //1598270390
+          {Date.now() < 1599393600 * 1000 ? (  //1598270390
               <>
              <StyledValue>
               0
@@ -119,10 +119,10 @@ const Stats: React.FC<StatsProps> = ({
       <Card>
         <CardContent>
           
-          {Date.now() < 1599220800 * 1000 ? (  //1598270390
+          {Date.now() < 1599393600 * 1000 ? (  //1598270390
               <>
              <StyledStat>  <StyledValue>
-              <Countdown date={1599220800*1000} renderer={renderer} />
+              <Countdown date={1599393600*1000} renderer={renderer} />
             </StyledValue>
             <Label text="Pool1 Pending" /></StyledStat>
                 </>
@@ -130,7 +130,7 @@ const Stats: React.FC<StatsProps> = ({
               : (<>
 
               <StyledStat>  <StyledValue>
-              <Countdown date={1599307200*1000} renderer={renderer} />
+              <Countdown date={1599480000*1000} renderer={renderer} />
             </StyledValue>
             <Label text="Pool2 Pending" /></StyledStat>
                 </>

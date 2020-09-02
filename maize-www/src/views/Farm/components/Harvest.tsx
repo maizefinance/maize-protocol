@@ -29,7 +29,7 @@ const Harvest: React.FC<HarvestProps> = ({ poolContract }) => {
       <CardContent>
         <StyledCardContentInner>
           <StyledCardHeader>
-            <CardIcon>🐣</CardIcon>
+            <CardIcon>🌽</CardIcon>
             <Value value={getDisplayBalance(earnings)} />
             <Label text="CHICKs earned" />
           </StyledCardHeader>

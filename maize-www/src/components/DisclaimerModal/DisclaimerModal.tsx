@@ -24,8 +24,8 @@ const DisclaimerModal: React.FC<DisclaimerModal> = ({ onConfirm, onDismiss }) =>
       return (
         <div>
           <p>Audits: None. (This project is in beta. Use at your own risk.)</p>
-          <p>🌽 Pool1 will start at 2020-09-04 12:00:00  UTC for initial release🌽</p>
-          <p>🌽 Pool2 will start at 2020-09-05 12:00:00  UTC for LP rewards🌽</p>
+          <p>🌽 Pool1 will start at 2020-09-06 12:00:00  UTC for initial release🌽</p>
+          <p>🌽 Pool2 will start at 2020-09-07 12:00:00  UTC for LP rewards🌽</p>
         </div>
       )
     } else {

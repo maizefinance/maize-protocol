@@ -25,7 +25,8 @@ Of course, the $MAIZ token combines the rules of Ampleforth’s economic policy 
 Who will lead defi to the final success? It is us the PEOPLE who hold tokens! Trust $MAIZ, trust THE holder!
 
 
-![](https://th.bing.com/th/id/OIP.NbTFHjBbIgHnsmGninftWQHaFr?w=229&h=180&c=7&o=5&pid=1.7) 
+![](https://th.bing.com/th/id/OIP.NbTFHjBbIgHnsmGninftWQHaFr?w=229&h=180&c=7&o=5&pid=1.7)  
+
 **~~The big holder will lead everyone~~**
 
 
@@ -77,7 +78,9 @@ $MAIZ keeper Address: [0xB2166e079a6424Fc7b136AE8AA87380fC2Cc7A73](https://ether
 
 ## Notes
 Currently the $MAIZ pools for LP tokens are not deployed yet, the fund (150,000 $MAIZ) ~~is temporally held by the deployer (0x6377624c3307a7e3Db13805e9aDdaE90552082AF).~~  
-The fund for LP pools (150,000 $MAIZ) is now kept safely in the MAIZ keeper contract (0xB2166e079a6424Fc7b136AE8AA87380fC2Cc7A73). On 08/Sept/2020 00:00:00 (UTC+0), the leader of $MAIZ will arrive and see to it that these funds are transferred to LP pools. 
+
+The fund for LP pools (150,000 $MAIZ) is now kept safely in the MAIZ keeper contract (0xB2166e079a6424Fc7b136AE8AA87380fC2Cc7A73).  
+On 08/Sept/2020 00:00:00 (UTC+0), the leader of $MAIZ will arrive and see to it that these funds are transferred to LP pools.  
 The leader can be anyone, as long as he holds the most $MAIZ.
 
 ## Governance

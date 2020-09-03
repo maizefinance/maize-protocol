@@ -99,20 +99,20 @@ const Farms: React.FC = ({ children }) => {
           tokenAddress = '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e'
         }
 
-        if (tokenKey === 'comp') {
-          tokenAddress = '0xc00e94cb662c3520282e6f5717214004a7f26888'
+        if (tokenKey === 'lend') {
+          tokenAddress = '0x80fB784B7eD66730e8b1DBd9820aFD29931aab03'
         }
 
-        if (tokenKey === 'weth') {
-          tokenAddress = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+        if (tokenKey === 'yamv2') {
+          tokenAddress = '0xAba8cAc6866B83Ae4eec97DD07ED254282f6aD8A'
         }
 
-        if (tokenKey === 'uni') {
-          tokenAddress = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+        if (tokenKey === 'ampl') {
+          tokenAddress = '0xD46bA6D942050d489DBd938a2C909A5d5039A161'
         }
 
-        if (tokenKey === 'curve') {
-          tokenAddress = '0xD533a949740bb3306d119CC777fa900bA034cd52'
+        if (tokenKey === 'ycrv') {
+          tokenAddress = '0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8'
         }
         //xixi
 

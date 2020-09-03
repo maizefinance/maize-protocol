@@ -130,9 +130,9 @@ const Stats: React.FC<StatsProps> = ({
               : (<>
 
               <StyledStat>  <StyledValue>
-              <Countdown date={1599480000*1000} renderer={renderer} />
+              <Countdown date={1599494400*1000} renderer={renderer} />
             </StyledValue>
-            <Label text="Pool2 Pending" /></StyledStat>
+            <Label text="Pool2 and Leader Pending" /></StyledStat>
                 </>
                 )}
             

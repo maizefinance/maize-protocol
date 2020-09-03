@@ -1,2 +1,2 @@
-export const yam = '0x6e94aac24284abaF1F2F6539E77068d3C4729851'
-//chick address/xixi
+export const yam = '0x9b42c461E4397D7880dAb88c8bB3D3cfC94b353A'
+//xixi

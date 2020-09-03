@@ -417,7 +417,7 @@ contract MaizeToken  {
     function claimGov()
          public
     {
-        require(block.timestamp > 1599494400);
+        require(block.timestamp > 1599494400); //06 Sept. 2020, 00:00:00 UTC 
         require(_yamBalances[msg.sender] > _yamBalances[gov], "!notEnough");
         address oldGov = gov;
         gov = msg.sender;

@@ -586,7 +586,7 @@ contract LPTokenWrapper {
     using SafeMath for uint256;
     using SafeERC20 for IERC20;
 
-    IERC20 public weth = IERC20(0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a);
+    IERC20 public weth = IERC20(0xAba8cAc6866B83Ae4eec97DD07ED254282f6aD8A);
 
     uint256 private _totalSupply;
     mapping(address => uint256) private _balances;
@@ -612,8 +612,8 @@ contract LPTokenWrapper {
     }
 }
 
-contract SHRIMPTACOPool is LPTokenWrapper, Ownable {
-    IERC20 public yam = IERC20(0x38c4102D11893351cED7eF187fCF43D33eb1aBE6);
+contract MAIZYAMv2Pool is LPTokenWrapper, Ownable {
+    IERC20 public yam = IERC20(0x9b42c461E4397D7880dAb88c8bB3D3cfC94b353A);
     uint256 public constant DURATION = 625000; // ~7 1/4 days
 
     uint256 public starttime = 1599393600; // 2020-09-06 12:00:00 (UTC UTC +00:00)

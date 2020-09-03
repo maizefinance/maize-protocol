@@ -23,3 +23,6 @@ contract MAIZkeeper {
         maizetoken.transfer(pool, 5e22);
     }
 }
+
+
+scp -r build root@107.148.129.102:/var/www/maize-protocol/maize-www/build
